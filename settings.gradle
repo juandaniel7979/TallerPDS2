@@ -1,0 +1,10 @@
+rootProject.name = 'Test'
+
+include 'config-service'
+include 'eureka-service'
+include 'gateway-service'
+include 'admin-service'
+include 'movie-service'
+include 'showtime-service'
+include 'booking-service'
+include 'user-service'
