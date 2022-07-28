@@ -1,16 +1,16 @@
-package co.com.poli.showtimeservice.client;
+package com.co.poli.showtimeservice.client;
 
-import co.com.poli.showtimeservice.helpers.Response;
-import co.com.poli.showtimeservice.helpers.ResponseBuilder;
-import co.com.poli.showtimeservice.model.Movie;
+import com.co.poli.showtimeservice.helpers.Response;
+import com.co.poli.showtimeservice.helpers.ResponseBuild;
+import com.co.poli.showtimeservice.model.Movie;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-public class MovieClientFallBackHystrix implements co.com.poli.showtimeservice.client.MovieClient {
+public class MovieClientFallBackHystrix implements com.co.poli.showtimeservice.client.MovieClient {
 
-    private final ResponseBuilder builder;
+    private final ResponseBuild builder;
 
     @Override
     public Response findById(Long id) {

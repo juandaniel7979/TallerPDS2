@@ -1,6 +1,6 @@
-package co.com.poli.showtimeservice.repository;
+package com.co.poli.showtimeservice.repository;
 
-import co.com.poli.showtimeservice.entity.Showtime;
+import com.co.poli.showtimeservice.entity.Showtime;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

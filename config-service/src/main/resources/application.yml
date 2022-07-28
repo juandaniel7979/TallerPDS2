@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///C:/Users/dellphoto/OneDrive/Documentos/Desarrollo/UNIVERSIDAD/PDS/TallerPDS/V2/config/33.configdata
+          uri: file:///C:/Users/dellphoto/OneDrive/Documentos/Desarrollo/UNIVERSIDAD/PDS/TallerPDS/V2/config/configdata-T2
   security:
     user:
       name: ${CONFIG_USER}

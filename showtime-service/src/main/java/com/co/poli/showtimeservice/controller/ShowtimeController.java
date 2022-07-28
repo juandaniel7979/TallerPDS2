@@ -1,10 +1,10 @@
-package co.com.poli.showtimeservice.controller;
+package com.co.poli.showtimeservice.controller;
 
-import co.com.poli.showtimeservice.entity.Showtime;
-import co.com.poli.showtimeservice.helpers.ErrorMessage;
-import co.com.poli.showtimeservice.helpers.Response;
-import co.com.poli.showtimeservice.helpers.ResponseBuilder;
-import co.com.poli.showtimeservice.services.ShowtimeService;
+import com.co.poli.showtimeservice.entity.Showtime;
+import com.co.poli.showtimeservice.helpers.ErrorMessage;
+import com.co.poli.showtimeservice.helpers.Response;
+import com.co.poli.showtimeservice.helpers.ResponseBuild;
+import com.co.poli.showtimeservice.services.ShowtimeService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 public class ShowtimeController {
 
     private final ShowtimeService showtimeService;
-    private final ResponseBuilder responseBuilder;
+    private final ResponseBuild responseBuilder;
 
     @GetMapping
     public Response findAll() {

@@ -1,4 +1,4 @@
-package co.com.poli.showtimeservice.entity;
+package com.co.poli.showtimeservice.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;

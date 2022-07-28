@@ -1,4 +1,4 @@
-package co.com.poli.showtimeservice.model;
+package com.co.poli.showtimeservice.model;
 
 import lombok.Data;
 

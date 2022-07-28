@@ -1,7 +1,7 @@
 package co.com.poli.movieservice.userservice.client;
 
 import co.com.poli.movieservice.userservice.helpers.Response;
-import co.com.poli.movieservice.userservice.helpers.ResponseBuilder;
+import co.com.poli.movieservice.userservice.helpers.ResponseBuild;
 import co.com.poli.movieservice.userservice.model.Booking;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 public class BookingClientFallBackHystrix implements BookingClient {
 
-    private final ResponseBuilder builder;
+    private final ResponseBuild builder;
 
     @Override
     public Response findAllUserIds(Long id) {

@@ -1,6 +1,6 @@
-package co.com.poli.showtimeservice.services;
+package com.co.poli.showtimeservice.services;
 
-import co.com.poli.showtimeservice.entity.Showtime;
+import com.co.poli.showtimeservice.entity.Showtime;
 
 import java.util.List;
 

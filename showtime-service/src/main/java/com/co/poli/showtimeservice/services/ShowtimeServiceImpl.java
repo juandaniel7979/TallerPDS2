@@ -1,10 +1,10 @@
-package co.com.poli.showtimeservice.services;
+package com.co.poli.showtimeservice.services;
 
-import co.com.poli.showtimeservice.client.MovieClient;
-import co.com.poli.showtimeservice.entity.Showtime;
-import co.com.poli.showtimeservice.entity.ShowtimeItems;
-import co.com.poli.showtimeservice.model.Movie;
-import co.com.poli.showtimeservice.repository.ShowtimeRepository;
+import com.co.poli.showtimeservice.client.MovieClient;
+import com.co.poli.showtimeservice.entity.Showtime;
+import com.co.poli.showtimeservice.entity.ShowtimeItems;
+import com.co.poli.showtimeservice.model.Movie;
+import com.co.poli.showtimeservice.repository.ShowtimeRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;

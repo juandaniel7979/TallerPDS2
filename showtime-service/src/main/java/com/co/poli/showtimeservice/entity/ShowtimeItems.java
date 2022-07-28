@@ -1,6 +1,6 @@
-package co.com.poli.showtimeservice.entity;
+package com.co.poli.showtimeservice.entity;
 
-import co.com.poli.showtimeservice.model.Movie;
+import com.co.poli.showtimeservice.model.Movie;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,4 +1,4 @@
-package co.com.poli.showtimeservice.helpers;
+package com.co.poli.showtimeservice.helpers;
 
 import lombok.Builder;
 import lombok.Data;
